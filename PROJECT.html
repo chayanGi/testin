@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Fashion Shoes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+  <link rel="stylesheet" href="js/script.js">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+  <header class="container">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/Logo.jpg" alt="" height="70px" class="navbar-img"> </a>
+        <p style="color: red; width:150px; font-weight:bold">The shoes Store</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse sticky-top" id="navbarNavAltMarkup">
+          <div class="navbar-nav ul ms-1 nav-color">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#casual-shoes">Casual Shoes</a>
+            <a class="nav-link" href="#formal-shoes">Formal Shoes</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner d-flex justify-content-between align-items-center">
+        <div class="col-md-5">
+          <img src="images/html1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-md-7">
+          <h1 class="price-color" style="font-family: 'Bebas Neue', cursive; font-weight: 300;">NIKE
+          </h1>
+          <h1 style="color: #363958; font-family:'Bebas Neue', cursive;">Design</h1>
+          <p class="text-dark">Casual Shoes </p>
+          <button class="link-button ms-auto" onclick="fun()"> Buy Now </button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section id="casual-shoes" class="mt-5">
+
+        <h3 class="container-fluid heading">Casual Shoes</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card card h-100 shadow">
+              <img src="images/cs1.jpg" class="card-img-top box-shadow" alt="..." style="height:450px">
+              <div class="card-body">
+                <h5 class="card-title">Design 1</h5>
+                <p class="card-text">Casual Shoes 1</p>
+
+              </div>
+              <div class="card-footer card-footer d-flex">
+                <h3 class="price-color"><span>&#8377;</span>1500</h3>
+                <button class="link-button ms-auto" onclick="fun()"> Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card h-100 shadow">
+              <img src="images/cs2.png" class="card-img-top box-shadow" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Design 2</h5>
+                <p class="card-text">Casual Shoes 2</p>
+
+              </div>
+              <div class="card-footer card-footer d-flex">
+                <div>
+                  <h3 class="price-color"><span>&#8377;</span>2000</h3>
+                </div>
+                <button class="link-button ms-auto" onclick="fun()"> Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card h-100 shadow">
+              <img src="images/cs3.png" class="card-img-top box-shadow" alt="..." style="height:450px">
+              <div class="card-body">
+                <h5 class="card-title">Design 3</h5>
+                <p class="card-text">Casual Shoes 3</p>
+
+              </div>
+              <div class="card-footer card-footer d-flex">
+                <h3 class="price-color"><span>&#8377;</span>1800</h3>
+                <button class="link-button ms-auto" onclick="fun()"> Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="formal-shoes" class="mt-5">
+
+        <h3 class="heading">Formal Shoes</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card card h-100 shadow">
+              <img src="images/fs1.jpg" class="card-img-top box-shadow" alt="..." style="height:425px">
+              <div class="card-body">
+                <h5 class="card-title">Design 1</h5>
+
+                <p class="card-text">Formal shoes 1</p>
+
+              </div>
+              <div class="card-footer card-footer d-flex">
+                <h3 class="price-color"><span>&#8377;</span>2500</h3>
+                <button class="link-button ms-auto" onclick="fun()"> Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card h-100 shadow">
+              <img src="images/fs2.jpg" class="card-img-top box-shadow" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Design 2</h5>
+
+                <p class="card-text">Formal shoes 2</p>
+
+              </div>
+              <div class="card-footer card-footer d-flex">
+                <h3 class="price-color"><span>&#8377;</span>2000</h3>
+                <button class="link-button ms-auto" onclick="fun()"> Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card h-100 shadow">
+              <img src="images/fs3.jpg" class="card-img-top box-shadow" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Design 3</h5>
+
+                <p class="card-text">Formal shoes 3</p>
+
+              </div>
+              <div class="card-footer card-footer d-flex">
+                <h3 class="price-color"><span>&#8377;</span>2300</h3>
+                <button class="link-button ms-auto" onclick="fun()"> Buy Now</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <br><br>
+      <section id="contact">
+        <div class="form-container">
+
+          <div class="container">
+
+            <div class="row py-3">
+              <div class="col text-black text-center m-auto">
+
+                <h2 class="font-weight-bold">Got Any Querry </h2>
+                <p>Feel free to message us.</p>
+
+              </div>
+
+            </div>
+
+            <div class="row pb-4">
+              <div class="text-black m-auto">
+                <h4>Send a message</h4>
+              </div>
+            </div>
+
+            <form action="form.php" method="post">
+              <div class="form-row row g-2 pb-4 size">
+
+                <div class="col">
+                  <input type="text" name="username" class="form-control inner-form" placeholder="Your Name">
+                </div>
+
+                <div class="col">
+                  <input type="text" name="email"class="form-control inner-form" placeholder="Your E-mail">
+                </div>
+
+              </div>
+
+              <div class="row pb-3">
+                <div class="col">
+                  <textarea name="" class="form-control inner-form" name="message" cols="20" rows="5"
+                    placeholder="Your Message"></textarea>
+                </div>
+              </div>
+
+              <div class="row pb-4">
+                <div class="col">
+                  <button style="btn bg-redtype py-3 text-black" >Submit</button>
+                  <script>
+                    function myfun() {
+                      alert("Your Response was submitted ");
+                    }
+                    function fun() {
+                      alert("will notify you when available.");
+                    }
+                  </script>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <br><br>
+        <footer style=" text-align:center ;background-color: turquoise ;color: white;font-weight: 700; ">
+          <small> © Made By Chayan Girdhar (209309024) </small>
+        </footer>
+
+</body>
+bv
+</html>
